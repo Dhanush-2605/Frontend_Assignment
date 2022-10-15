@@ -1,0 +1,43 @@
+.Form {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+
+  padding: 30px;
+}
+input {
+  padding: 10px 5px;
+  font-size: large;
+}
+.form-label {
+  font-weight: 530;
+}
+.insideTitle {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formDiv {
+  display: flex;
+  /* background-color: red; */
+  width: 350px;
+  margin: 20px 0px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 500px) {
+  .formDiv {
+    width: 100%;
+  }
+  .Form {
+    width: 80vw;
+  }
+}
+
+/* --e-global-color-1d59f57f: #7861C3;
+--e-global-color-56687dc3: #C5C2CF;
+--e-global-color-5117437d:  */
