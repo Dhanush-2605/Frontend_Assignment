@@ -12,9 +12,7 @@ export const Page1 = () => {
         <h2>Personal Details</h2>
       </div>
       <div className="formDiv">
-        <label htmlFor="exampleInputEmail1" className="form-label">
-          First Name
-        </label>
+        <label className="form-label">First Name</label>
         <input
           type="text"
           value={firstName}
@@ -25,9 +23,7 @@ export const Page1 = () => {
         />
       </div>
       <div className="formDiv">
-        <label htmlFor="exampleInputEmail1" className="form-label">
-          Last Name
-        </label>
+        <label className="form-label">Last Name</label>
         <input
           type="text"
           value={lastName}

@@ -10,6 +10,8 @@ const Home = () => {
   const [page, setPage] = useState(1);
   return (
     <div className="App">
+    <div className="title">  <h1>Multistep Form</h1>  </div>
+   
       <div className="wrapper">
         <div className="content">
           {page === 1 ? <Page1 /> : page === 2 ? <Page2 /> : <Page3 />}

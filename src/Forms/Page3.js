@@ -12,9 +12,7 @@ export const Page3 = () => {
         <h2>Address</h2>
       </div>
       <div className="formDiv">
-        <label htmlFor="exampleInputEmail1" className="form-label">
-          City
-        </label>
+        <label className="form-label">City</label>
         <input
           type="text"
           value={city}
@@ -23,13 +21,10 @@ export const Page3 = () => {
             setCity(e.target.value);
           }}
           className="form-control"
-          aria-describedby="emailHelp"
         />
       </div>
       <div className="formDiv">
-        <label htmlFor="exampleInputEmail1" className="form-label">
-          Street
-        </label>
+        <label className="form-label">Street</label>
         <input
           type="text"
           value={street}
@@ -38,13 +33,10 @@ export const Page3 = () => {
             setStreet(e.target.value);
           }}
           className="form-control"
-          aria-describedby="emailHelp"
         />
       </div>
       <div className="formDiv">
-        <label htmlFor="exampleInputEmail1" className="form-label">
-          Country
-        </label>
+        <label className="form-label">Country</label>
         <input
           type="text"
           value={country}
@@ -53,7 +45,6 @@ export const Page3 = () => {
             setCountry(e.target.value);
           }}
           className="form-control"
-          aria-describedby="emailHelp"
         />
       </div>
     </form>

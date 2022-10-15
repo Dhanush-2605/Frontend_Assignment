@@ -19,7 +19,6 @@ export const Page2 = () => {
             setEmail(e.target.value);
           }}
           className="form-control"
-          aria-describedby="emailHelp"
         />
       </div>
       <div className="formDiv">
@@ -32,7 +31,6 @@ export const Page2 = () => {
             setPassword(e.target.value);
           }}
           className="form-control"
-          aria-describedby="emailHelp"
         />
       </div>
     </form>
